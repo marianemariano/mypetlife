@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<!--https://getbootstrap.com/docs/4.1/examples/dashboard/#       link do exemplo-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
+    <title>Dashboard Template for Bootstrap</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark" style="background: #1976D2 !important">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="btn btn-outline-light">Sair</button>
+        </a>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar" style="padding-bottom:9%; border-right:solid 1px; border-color:rgb(189, 188, 188)">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item" style="margin-top:10%">
+                            <a href="" class="nav-link">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                Sua conta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fa fa-paw" aria-hidden="true"></i>
+                                Seus animais</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-stethoscope" aria-hidden="true"></i> Consulta / vacina /Exame</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shower" aria-hidden="true"></i>
+                                Higiene</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-medkit" aria-hidden="true"></i>
+                                Medicamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                                Alergia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                Cirurgia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                                Local</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-fire" aria-hidden="true"></i>
+                                Pulgas e vermiforos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-user-md" aria-hidden="true"></i>
+                                Medico</a>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="mx-auto"style="margin-top:1%">
+                <h1>Seus animais</h1>
+                <div class="container" style="margin-top:3%">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/user.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do pet</h5>
+                                    <a href="#" class="btn btn-primary">Selecionar PET</a>
+                                    <a href="" class="btn btn-danger">Apagar PET</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/user.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do pet</h5>
+                                    <a href="#" class="btn btn-primary">Selecionar PET</a>
+                                    <a href="" class="btn btn-danger">Apagar PET</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="img/user.svg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do pet</h5>
+                                    <a href="#" class="btn btn-primary">Selecionar PET</a>
+                                    <a href="" class="btn btn-danger">Apagar PET</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:5%">
+                        <div class="col-md-12">
+                            <center>
+                                <button class="btn btn-success" data-target="#exampleModal" data-toggle="modal">Adicionar um novo PET</button>
+                            </center>
+                        </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Cadastrar um novo PET</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form style="margin-left:5%; margin-right:5%; margin-top:10px">
+                                            <div class="form-group">
+                                                <label for="">
+                                                    <b style="font-size:14px;">Nome do animal</b>
+                                                </label>
+                                                <input type="email" class="form-control form-control-sm" style="border-radius:5px;">
+                                                <small style="margin-bottom:10px" class="form-text form-text-muted ">Precisamos identificar pelo nome do seu animal. :)</small>
+                                            </div>
+                                            <div class="form-group" style="margin-top:-5px">
+                                                <label for="">
+                                                    <b style="font-size:14px">Raça do animal</b>
+                                                </label>
+                                                <input type="text" class="form-control form-control-sm" style="border-radius:5px;">
+                                                <small style="margin-bottom:10px" class="form-text form-text-muted ">Essa informação é muito impotante para o cadastro do seu animal</small>
+                                            </div>
+                                            <div class="form-group" style="margin-top:-5px">
+                                                <label for="">
+                                                    <b style="font-size:14px">Idade do animal</b>
+                                                </label>
+                                                <input type="number" class="form-control form-control-sm" style="border-radius:5px;">
+                                                <small style="margin-bottom:10px" class="form-text form-text-muted ">Essa informação é muito impotante para o cadastro do seu animal</small>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Cadastrar animal</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+                crossorigin="anonymous"></script>
+</body>

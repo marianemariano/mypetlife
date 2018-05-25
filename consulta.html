@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<!--https://getbootstrap.com/docs/4.1/examples/dashboard/#       link do exemplo-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <style type="text/css">
+        .col-md-4{
+            border-left: solid 1px;
+            border-color: #cecece;
+        }
+    </style>
+
+
+
+    <title>Dashboard Template for Bootstrap</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark" style="background: #1976D2 !important">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="btn btn-outline-light">Sair</button>
+        </a>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar" style="padding-bottom:9%; border-right:solid 1px; border-color:rgb(189, 188, 188)">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item" style="margin-top:10%">
+                            <a href="" class="nav-link">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                Sua conta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <i class="fa fa-paw" aria-hidden="true"></i>
+                                Seus animais</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-stethoscope" aria-hidden="true"></i> Consulta / vacina /Exame</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shower" aria-hidden="true"></i>
+                                Higiene</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-medkit" aria-hidden="true"></i>
+                                Medicamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-exclamation" aria-hidden="true"></i>
+                                Alergia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                Cirurgia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                                Local</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-fire" aria-hidden="true"></i>
+                                Pulgas e vermiforos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-user-md" aria-hidden="true"></i>
+                                Medico</a>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+
+            <main style="margin-top:1%" class="mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4"> 
+                            <table class="table">
+                                <thead>
+                                    <center><b>Consulta</b></center>
+                                    <tr>
+                                        <th scope="col">Data</th>
+                                        <th scope="col">Motivo</th>
+                                        <th scope="col">Local</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>30/04/2018</td>
+                                        <td>Consulta periódica</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>10/05/2018</td>
+                                        <td>Consulta periódica</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="btn btn-success btn-sm"><i class="fa fa-plus" aria-hidden="true"> Adicionar</i></button>
+                        </div>
+
+
+                        <div class="col-md-4"> 
+                            <table class="table">
+                                <thead>
+                                    <center><b>Vacina</b></center>
+                                    <tr>
+                                        <th scope="col">Data</th>
+                                        <th scope="col">Motivo</th>
+                                        <th scope="col">Local</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>30/04/2018</td>
+                                        <td>Vacina contra raiva</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>01/05/2018</td>
+                                        <td>Vacina contra carrapato</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="btn btn-success btn-sm"><i class="fa fa-plus" aria-hidden="true"> Adicionar</i></button>
+                        </div>
+                        <div class="col-md-4"> 
+                            <table class="table">
+                                <center><b>Exame</b></center>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Data</th>
+                                        <th scope="col">Nome Vacina</th>
+                                        <th scope="col">Local</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>30/04/2018</td>
+                                        <td>Vacina contra raiva</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>01/05/2018</td>
+                                        <td>Vacina contra carrapato</td>
+                                        <td>Petshop Saint Louis</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <button class="btn btn-success btn-sm"><i class="fa fa-plus" aria-hidden="true"> Adicionar</i></button>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+                crossorigin="anonymous"></script>
+</body>

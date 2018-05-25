@@ -1,0 +1,25 @@
+body{
+    background: #f4f4f4 !important;
+    font-size: .875rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.navcollor{
+    color: white !important;
+}
+
+.hover:hover{
+    color:#1976D2 !important;
+}
+  
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+}
